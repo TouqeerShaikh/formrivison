@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+    <style>
+        body {
+            background-color: #474545;
+        }
+        div {
+            background-color: rgb(32, 31, 31);
+            color: aliceblue;
+            width: 20%;
+            height: 47vh;
+            margin-top: 80px;
+            padding-top: 1px;
+            border: none;
+            border-radius: 20px;
+            box-shadow: 7px 5px 44px wheat, -7px -5px 44px wheat;
+        }
+        .same {
+        background-color: #474545;
+        border: none;
+        border-radius: 4px;
+        padding: 5px;
+        }
+        .difrent {
+            background-color: #222007;
+            border: none;
+            border-radius: 4px;
+            padding: 5px;
+        }
+        ::placeholder {
+            text-align: center;
+        }
+        button {
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div>
+            <form action="./thanks.html">
+
+                <h3>Registration</h3>
+                <input type="text" placeholder="username" class="same">
+                <br><br>
+                <input type="email" placeholder="email" class="same">
+                <br><br>
+                <input type="password" placeholder="*************" class="difrent" required="required">
+                <br><br>
+                <input type="password" placeholder="confirm password" class="same">
+                <br><br>
+                <button>Register</button>
+            </form>
+        </div>
+    </center>
+</body>
+</html>
